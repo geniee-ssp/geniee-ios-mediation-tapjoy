@@ -17,7 +17,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/Tapjoy/swift-packages.git",
-            from: "14.0.0"
+            exact: "14.7.0"
         )
     ],
     targets: [
@@ -32,8 +32,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "GenieeMediationTapjoy",
-            url: "https://github.com/unigeniee/geniee-ios-mediation-tapjoy/releases/download/8.4.100/GenieeMediationTapjoy.8.4.1.0.zip",
-            checksum: "ca9947fcf7252e64c3b7254c43828bb1276770412be033b71503a4abc68e7ddf"
+            url: "https://github.com/unigeniee/geniee-ios-mediation-tapjoy/releases/download/14.7.0/GenieeMediationTapjoy.14.7.0.0.zip",
+            checksum: "2f61dc1c2fb470da5c371f4df49b3927358eab4a6ffd06c2b32195a7165b308d"
         )
     ]
 )
