@@ -33,7 +33,7 @@ let package = Package(
         .binaryTarget(
             name: "GenieeMediationTapjoy",
             url: "https://github.com/unigeniee/geniee-ios-mediation-tapjoy/releases/download/14.7.0/GenieeMediationTapjoy.14.7.0.0.zip",
-            checksum: "2f61dc1c2fb470da5c371f4df49b3927358eab4a6ffd06c2b32195a7165b308d"
+            checksum: "0d63c6279d209ec4b96ae2246c10d5aeb8f808bc24709d4f208ea73d239dd32e"
         )
     ]
 )
