@@ -13,7 +13,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/geniee-ssp/swift-package-manager-geniee-ios-sdk.git",
-            from: "8.4.3"
+            from: "8.5.1"
         ),
         .package(
             url: "https://github.com/Tapjoy/swift-packages.git",
@@ -32,8 +32,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "GenieeMediationTapjoy",
-            url: "https://github.com/geniee-ssp/geniee-ios-mediation-tapjoy/releases/download/14.7.0/GenieeMediationTapjoy.14.7.0.0.zip",
-            checksum: "0d63c6279d209ec4b96ae2246c10d5aeb8f808bc24709d4f208ea73d239dd32e"
+            url: "https://github.com/geniee-ssp/geniee-ios-mediation-tapjoy/releases/download/14.7.1/GenieeMediationTapjoy.14.7.0.1.zip",
+            checksum: "51f77c18091fd043e717dc0e0e4a8f645d97f4291b5c05446071b255fb0b9bc7"
         )
     ]
 )
